@@ -94,6 +94,13 @@ h1 h2 article p {
   width: 100%;
 }
 
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .section-article {
   font-weight: 600;
   font-size: 1.2em;
@@ -165,6 +172,7 @@ h1 h2 article p {
 .glowing-title {
   font-family: ThirdStreet;
   font-size: 6em;
+  width: 70%;
   background: linear-gradient(
     to right,
     var(--color-gradient-1),
@@ -259,6 +267,7 @@ h1 h2 article p {
   body {
     margin: 1em;
     overflow-x: hidden;
+
   }
 
   .glowing-title {
@@ -277,7 +286,7 @@ h1 h2 article p {
   }
 
   .section-header {
-    font-size: min(2em, 10vw);
+    font-size: min(2em, 10vw)
   }
 
   #socials-container {
@@ -292,4 +301,17 @@ h1 h2 article p {
   .social-icon {
     margin-top: 0.8em;
   }
+}
+
+/* Stack project items vertically */
+.project-container {
+  display: flex;
+  flex-direction: column !important;
+  overflow-x: unset !important;
+  gap: 1.5rem; /* optional: space between items */
+}
+
+.project-container > * {
+  flex: unset !important;
+  width: 100% !important;
 }

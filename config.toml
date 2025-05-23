@@ -1,5 +1,37 @@
-[module]
-  [module.hugoVersion]
-    extended = false
-    max = ""
-    min = "0.117.0"
+baseURL = "https://simulateher.github.io/new-website/"
+title = "Johanna Marthe Israel"
+author = "Johanna Marthe Israel"
+languageCode = "en-GB"
+theme = "yuan"
+
+[params]
+  description = "Digital humanities student and language enthusiast"
+  enableMouseTracker = true
+  truncationLimit = 150
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:johanna.marthe.israel@gmail.com"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/simulateher"
+
+  [[params.itemDisplays]]
+    name = "BA Thesis on Slaughterhouse-Five"
+    url = "#"
+    description = "A postmodernist analysis of mortality in Vonnegut’s novel."
+
+  [[params.itemDisplays]]
+    name = "Publishing Internship"
+    url = "#"
+    description = "Oversaw translation projects and managed editorial workflows."
+
+  [[params.itemDisplays]]
+    name = "Digital Humanities Project"
+    url = "#"
+    description = "Textual analysis using R in a course on data sustainability."
+
+  customCSS = ["css/main.css"]
+
+

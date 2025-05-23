@@ -1,7 +1,44 @@
 <section id="about" class="section">
   <div id="about-container" class="centered section-container">
-    <h1 class="section-header">{{ .Title }}</h1>
+    <h1 class="section-header">Curriculum Vitae</h1>
+
     <article class="section-article">{{ .Content }}</article>
+
+    <div class="section-article">
+      <h2>About Me</h2>
+      <p>Hi, I’m Johanna, I am a currently studying English Philology and Japanese Studies at FU Berlin. I am very enthusiastic about anything to do with languages.</p>
+      <p>In the fall, I will move to Italy for my Master’s, which I’m super excited about!</p>
+      <h2>Interests</h2>
+      <ul>
+        <li>Digital Humanities</li>
+        <li>Corpus Linguistics</li>
+        <li>Textual Analysis</li>
+      </ul>
+      <h2>Education and Certificates</h2>
+      <ul>
+        <li>Starting fall 2025: <i>MA Language and Mind - Linguistics and Cognitive Studies</i></li>
+        <p>Università di Siena, Italy</p>
+        <li>Ending fall 2025: <i>BA English Philology (Major) and Japanese Studies (Minor)</i></li>
+        <p>Freie Universität Berlin</p>
+      </ul>
+      <h2>Professional Experience</h2>
+      <ul>
+        <li>Internship in publishing @ Elfenbein Verlag, Berlin - 09/2024-now</li>
+        <li>Disability support work @ Lebenshilfe, Berlin - 2021-now</li>
+        <li>Freelance translation and editing (ITA-DE-EN) - ongoing</li>
+      </ul>
+      <h2>Languages</h2>
+      <ul>
+        <li>German (native)</li>
+        <li>English (C2)</li>
+        <li>Italian (near-native)</li>
+        <li>Japanese (B2)</li>
+        <li>Latin (advanced)</li>
+        <li>Spanish (basic)</li>
+        <li>Hebrew (basic)</li>
+      </ul>
+    </div>
+
   </div>
   <div id="socials-container" class="section-container">
     {{- range site.Params.socialIcons -}}
@@ -17,3 +54,5 @@
     {{- end -}}
   </div>
 </section>
+
+
