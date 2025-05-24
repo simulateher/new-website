@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:55248/</loc>
+    <loc>https://simulateher.github.io/new-website/</loc>
   </url><url>
-    <loc>http://localhost:55248/about/</loc>
+    <loc>https://simulateher.github.io/new-website/about/</loc>
   </url><url>
-    <loc>http://localhost:55248/categories/</loc>
+    <loc>https://simulateher.github.io/new-website/categories/</loc>
   </url><url>
-    <loc>http://localhost:55248/tags/</loc>
+    <loc>https://simulateher.github.io/new-website/tags/</loc>
   </url>
 </urlset>
