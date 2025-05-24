@@ -59,7 +59,7 @@ params:
     msTileColor: "#2b5797"
     msTileIcon: "mstile-150x150.png"
     themeColor: "#040404"
-    logo: "logo.svg"
+    logo: "logo.png"
 
   # Icons shown below the about text snippet
   # List of the available icons can be found in the /layouts/partials/svg.html file

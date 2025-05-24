@@ -1,8 +1,8 @@
-baseURL = "https://simulateher.github.io/new-website/"
-title = "Johanna Marthe Israel"
-author = "Johanna Marthe Israel"
-languageCode = "en-GB"
-theme = "yuan"
+[module]
+  [module.hugoVersion]
+    extended = false
+    max = ""
+    min = "0.117.0"
 
 [params]
   description = "Digital humanities student and language enthusiast"

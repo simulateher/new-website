@@ -136,8 +136,8 @@ h1 h2 article p {
   height: 3em;
   aspect-ratio: 1;
   margin: 0;
-  filter: drop-shadow(0 0 2px var(--color-primary)) invert(75%) sepia(28%)
-    saturate(526%) hue-rotate(167deg) brightness(200%) contrast(93%);
+  /* filter: drop-shadow(0 0 2px var(--color-primary)) invert(75%) sepia(28%)
+    saturate(526%) hue-rotate(167deg) brightness(200%) contrast(93%); */
 }
 
 #navlinks {
