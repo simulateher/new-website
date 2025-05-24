@@ -1,3 +1,6 @@
+baseURL = "https://simulateher.github.io/new-website/"
+
+
 [module]
   [module.hugoVersion]
     extended = false
@@ -8,6 +11,11 @@
   description = "Digital humanities student and language enthusiast"
   enableMouseTracker = true
   truncationLimit = 150
+
+  [params.assets]
+  logo = "img/logo.png"
+  favicon32 = "favicon-32x32.png"
+
 
   [[params.socialIcons]]
     name = "email"
